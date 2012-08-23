@@ -1,0 +1,23 @@
+{
+  "name": "zest-template",
+  "description": "Server-side component rendering",
+  "version": "0.0.1",
+  "author": "Guy Bedford <guybedford@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zestjs/zest-template"
+  },
+  "dependencies": {
+    "zest-server": ">=0.0.1",
+    "volo": ">=0.2.2"
+  },
+  "amd": {
+    "baseUrl": "www/lib"
+  },
+  "volo": {
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.0.6",
+      "zest": "github:zestjs/zest/master"
+    }
+  }
+}
