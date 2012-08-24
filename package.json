@@ -17,7 +17,13 @@
   "volo": {
     "dependencies": {
       "require": "github:jrburke/requirejs/2.0.6",
-      "zest": "github:zestjs/zest/master"
+      "zest": "github:zestjs/zest/master",
+      "jade": "https://raw.github.com/rocketlabsdev/require-jade/master/jade.js",
+      "cs": "github:jrburke/require-cs/0.4.2"
     }
+  },
+  "scripts": {
+    "install": "volo add",
+    "start": "node app.js"
   }
 }
