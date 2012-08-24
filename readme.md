@@ -5,7 +5,7 @@ Installation instructions for zest:
 2. Open the command line
 
 3. Install volo: 
-`npm install volo -gi`
+`npm install volo -g`
 
 4. Create a zest project in a suitable folder:
 `volo create myapp zestjs/zest-template`
