@@ -1,29 +1,20 @@
 {
-  "name": "zest-template",
-  "description": "Server-side component rendering",
-  "version": "0.0.1",
-  "author": "Guy Bedford <guybedford@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zestjs/zest-template"
-  },
+  "name": "",
+  "description": "",
+  "version": "",
+  "author": "",
   "dependencies": {
-    "zest-server": ">=0.0.1",
-    "volo": ">=0.2.2"
   },
   "amd": {
     "baseUrl": "www/lib"
   },
   "volo": {
     "dependencies": {
-      "require": "github:jrburke/requirejs/2.0.6",
-      "zest": "github:zestjs/zest/master",
-      "jade": "https://raw.github.com/rocketlabsdev/require-jade/master/jade.js",
-      "cs": "github:jrburke/require-cs/0.4.2"
+      "require": "jrburke/requirejs",
+      "zest": "zestjs/zest",
     }
   },
   "scripts": {
     "install": "volo add",
-    "start": "node app.js"
   }
 }

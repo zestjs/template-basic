@@ -1,0 +1,19 @@
+{
+  //environment specifier (dev / production)
+  environment: 'dev',
+
+  //default requirejs config:
+  require: {
+    //add any map config here
+    map: {
+
+    },
+    //environment-specific requirejs configs:
+    server: {},
+    build: {},
+    client: {}
+  },
+  modules: {
+    'cs!$/app-module': null 
+  }
+}
