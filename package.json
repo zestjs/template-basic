@@ -11,10 +11,10 @@
   "volo": {
     "dependencies": {
       "require": "jrburke/requirejs",
-      "zest": "zestjs/zest",
+      "zest": "zestjs/zest"
     }
   },
   "scripts": {
-    "install": "volo add",
+    "install": "volo add"
   }
 }
