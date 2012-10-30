@@ -1,18 +1,18 @@
-//environment specifier (dev / production)
+# environment specifier (dev / production)
 environment: 'dev'
 
-//modules to load
+# modules to load
 modules:
   'cs!$/app-module': true
 
-//requirejs config
+# requirejs config
 require:
-  //add any map config here etc
+  # add any map config here etc
   map: {}
   paths:
     app: '../app'
   
-  //environment-specific requirejs configs
+  # environment-specific requirejs configs
   server: {}
   build: {}
   client: {}
