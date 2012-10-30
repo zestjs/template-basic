@@ -1,5 +1,5 @@
 //environment specifier (dev / production)
-environment: 'dev',
+environment: 'dev'
 
 //modules to load
 modules:
@@ -9,6 +9,8 @@ modules:
 require:
   //add any map config here etc
   map: {}
+  paths:
+    app: '../app'
   
   //environment-specific requirejs configs
   server: {}

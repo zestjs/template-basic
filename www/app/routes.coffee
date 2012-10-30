@@ -1,1 +1,2 @@
-'/': 'cs!app/pages/home'
+define
+  '/': 'cs!app/pages/home'
