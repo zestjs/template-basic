@@ -1,6 +1,8 @@
 # environment specifier (dev / production)
 environment: 'dev'
 
+rebuildZestLayer: false
+
 # modules to load
 modules:
   'cs!$/app-module': true
