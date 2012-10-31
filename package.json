@@ -13,8 +13,5 @@
       "require": "jrburke/requirejs",
       "zest": "zestjs/zest"
     }
-  },
-  "scripts": {
-    "install": "volo add"
   }
 }
