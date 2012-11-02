@@ -1,3 +1,7 @@
 define ['cs!app/com/page-template'], (PageTemplate) ->
   $z.create([PageTemplate],
-    content: 'Welcome'
+    options:
+      arg: ' to ZestJS'
+    content: (o) -> 
+      "Welcome #{o.arg}"
+  )
