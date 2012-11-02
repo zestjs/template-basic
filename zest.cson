@@ -1,22 +1,15 @@
 # environment specifier (dev / production)
 environment: 'dev'
 
-rebuildZestLayer: false
-
-# modules to load
+# load the application module
 modules:
-  'cs!$/app-module': true
+  'cs!$/application': true
 
-# requirejs config
+# RequireJS config - exactly as in RequireJS docs
 require:
-  # add any map config here etc
-  map: {}
+  map:
+    '*':
+      # if using jquery, remap the selector module to point to jquery
+      'selector': 'selector' #'jquery'
   paths:
     app: '../app'
-  
-  # environment-specific requirejs configs
-  server: {}
-  build: {}
-  client: {}
-
-
