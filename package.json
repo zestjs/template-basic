@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "",
   "dependencies": {
+    "zest-server": ">=0.0.3"
   },
   "amd": {
     "baseUrl": "www/lib"
