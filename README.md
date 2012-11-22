@@ -21,7 +21,7 @@ Then create this template with volo:
 _Note: on windows you need to separately type `npm install` from the project folder to download the node dependencies._
 
 
-As an alternative to Volo, download the full project including the dependencies here. Then use `npm install` from the base folder to download the nodejs dependencies.
+As an alternative to Volo, [download the full project including the dependencies here](https://github.com/downloads/zestjs/template-basic/zest-template-basic.zip). Then use `npm install` from the base folder to download the nodejs dependencies.
 
 Run
 ---
