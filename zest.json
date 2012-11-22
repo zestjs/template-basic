@@ -1,31 +1,16 @@
 {
-  // default environment specifier (dev / production / custom name)
-  environment: 'dev',
-
-  environments: {
-    dev: {
-      // environment-specific configs to override base config
-    }
-  },
   
   // load the application module (app.js)
   modules: ['$/app'],
 
   // RequireJS config - exactly as in RequireJS docs
   require: {
-    map: {
-      '*': {
-        // if using jquery, remap the selector module to point to jquery
-        'selector': 'selector' //'jquery'
-      }
-    },
     paths: {
       app: '../app'
     },
 
     // requirejs build config (exactly as in requirejs docs, but with defaults provided)
     build: {
-      // skipDirOptimize: true, // if only using the layer files and no others this will speed up the build
       zestLayer: {
         include: ['$attach!app/home']
       }
