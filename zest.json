@@ -15,6 +15,13 @@
     },
     paths: {
       app: '../app'
+    },
+
+    // requirejs build config (exactly as in requirejs docs, but with defaults provided)
+    build: {
+      zestLayer: {
+        include: ['$attach!app/home']
+      }
     }
   },
 
