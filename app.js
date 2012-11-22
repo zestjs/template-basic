@@ -1,6 +1,6 @@
 define({
   routes: {
     '/': 'app/home',
-    '/{arg}': 'app/home'
+    '/{name}': 'app/home'
   }
 });

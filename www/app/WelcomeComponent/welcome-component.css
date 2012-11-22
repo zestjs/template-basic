@@ -1,4 +1,5 @@
-.content {
+.welcome {
+  display: none;
   margin: 50px;
   font-family: verdana;
   font-size: 14px;
