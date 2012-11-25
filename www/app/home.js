@@ -1,3 +1,5 @@
-define(['app/WelcomeComponent/welcome-component'], function (WelcomeComponent) {
-  return WelcomeComponent;
+define(['app/Hello/hello'], function (HelloComponent) {
+  return {
+    render: HelloComponent
+  };
 });
