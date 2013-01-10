@@ -9,12 +9,18 @@
       app: '../app'
     },
 
-    // requirejs build config (exactly as in requirejs docs, but with defaults provided)
-    build: {
-      zestLayer: {
-        include: ['$attach!app/home']
+    map: {
+      '*': {
+        selector: 'jquery'
       }
-    }
+    },
+
+    // requirejs build config (exactly as in requirejs docs, but with defaults provided)
+    /* build: {
+      zestLayer: {
+        include: ['app/home']
+      }
+    }*/
   },
 
   // port to run the server on
