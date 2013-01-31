@@ -1,6 +1,6 @@
-define(['zest', 'com!./button', 'css!./dialog'], function($z, Button) {
+define(['zest', './button', 'css!./dialog'], function($z, Button) {
   return {
-    type: 'SimpleDialog',
+    className: 'SimpleDialog',
     options: {
       width: 400,
       height: 300
@@ -8,10 +8,7 @@ define(['zest', 'com!./button', 'css!./dialog'], function($z, Button) {
     // note it is better to use a template plugin here - 
     render: function(o) {
       return ''
-        + '<div style="\n'
-        + '  width: ' + $z.esc(o.width, 'num', this.options.width) + 'px;\n'
-        + '  height: ' + $z.esc(o.height, 'num', this.options.height) + 'px;\n'
-        + '">\n'
+        + '<div>\n'
         + '  {`content`}\n'
         + '  <div class="button">{`button`}</div>\n'
         + '</div>';
@@ -23,6 +20,12 @@ define(['zest', 'com!./button', 'css!./dialog'], function($z, Button) {
           text: o.confirmText
         }
       };
+    },
+    style: function(o) {
+      return '#' + o.id + '{ \n'
+        + '  width: ' + $z.esc(o.width, 'num', this.options.width) + 'px;\n'
+        + '  height: ' + $z.esc(o.height, 'num', this.options.height) + 'px;\n'
+        + '}';
     },
     attach: './dialog-attach'
   };

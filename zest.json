@@ -15,12 +15,12 @@
       }
     },
 
-    // requirejs build config (exactly as in requirejs docs, but with defaults provided)
-    /* build: {
+    // requirejs optimizer build config
+    build: {
       zestLayer: {
-        include: ['app/home']
+        include: ['^!app/home']
       }
-    }*/
+    }
   },
 
   // port to run the server on

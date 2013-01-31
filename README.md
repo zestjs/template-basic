@@ -18,10 +18,7 @@ Then create this template with volo:
  volo create folder_name zestjs/template-basic
 ```
 
-_Note: on windows you need to separately type `npm install` from the project folder to download the node dependencies._
-
-
-As an alternative to Volo, [download the full project including the dependencies here](https://github.com/downloads/zestjs/template-basic/zest-template-basic.zip). Then use `npm install` from the base folder to download the nodejs dependencies.
+_Note: on windows you may need to separately type `npm install` from the project folder to download the node dependencies._
 
 Run
 ---
@@ -46,4 +43,4 @@ from the project folder.
 This will build the necessary browser files into one file including - 
 * Templates are compiled
 * CSS and LESS is inlined into script
-* CoffeeScript is compiled if using [require-cs](https://github.com/jrburke/require-cs)
+* CoffeeScript is compiled if using [require-coffee](https://github.com/guybedford/require-coffee)
