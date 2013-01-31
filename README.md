@@ -1,6 +1,8 @@
 ZestJS Simple Server Template
 ===
 
+From the ZestJS Quick Start at http://zestjs.org/
+
 Install
 ---
 

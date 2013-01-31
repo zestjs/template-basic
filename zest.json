@@ -19,6 +19,7 @@
     build: {
       zestLayer: {
         include: ['^!app/home']
+        // separateCSS: true - enable for a CSS file build
       }
     }
   },
